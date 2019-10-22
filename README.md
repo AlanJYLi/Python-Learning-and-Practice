@@ -5,5 +5,5 @@ For data structure and algorithms part, the reference book is "Data Structures &
 
 Some preview pages of the coding practice:  
   
-Simulation via SimPy module:  
+Airport security checking process simulation via SimPy module:  
 https://alanjyli.github.io/Python-Learning-and-Practice/Distribution_and_Simulation_SimPy.html  
