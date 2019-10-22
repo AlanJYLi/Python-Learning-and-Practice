@@ -28,7 +28,7 @@ select {
 <script>
 
 // get the data
-d3.dsv(",", "earthquakes.csv", function(d) {
+d3.dsv(",", "https://alanjyli.github.io/Python-Learning-and-Practice/earthquakes.csv", function(d) {
     return {
         'states': d.States,
         2010: parseInt(d['2010']),
