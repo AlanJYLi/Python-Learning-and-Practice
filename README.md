@@ -3,5 +3,7 @@ This is a personal record for the process of learning Python and practicing.
 
 For data structure and algorithms part, the reference book is "Data Structures & Algorithms in Python" by Michael T. Goodrich etc.
 
-Some preview html pages of the coding practice  
-https://alanjyli.github.io/Python-Learning-and-Practice/Distribution_and_Simulation_SimPy.html
+Some preview pages of the coding practice:  
+  
+Simulation via SimPy module
+https://alanjyli.github.io/Python-Learning-and-Practice/Distribution_and_Simulation_SimPy.html  
