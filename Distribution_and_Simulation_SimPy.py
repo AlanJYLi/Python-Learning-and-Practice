@@ -27,6 +27,7 @@ class AirportCheck(object):
 
     def idcheck(self, name, checktime):
         # The ID checking process. Passenger's "name" and the service time are the function's arguements
+        # The reason why use name as a argument is that when debugging, it's easier to identify each passenger's state via print(). And same reason for the following part
         yield self.env.timeout(checktime)
     
     def scancheck(self, name, scantime):
@@ -224,7 +225,7 @@ for a in range(len(parameters)):
         NUMBER_IDCHECK = int(data_total.index[a]) # number of servers at ID checking
         NUMBER_SCANNER = int(data_total.columns[b]) # number of personal scanner checking queues
     
-        simulationtimes = 50
+        simulationtimes = 5
     
         total = 0
         waiting = 0
@@ -249,6 +250,7 @@ for a in range(len(parameters)):
         data_total.loc[data_total.index[a], data_total.columns[b]] = total/simulationtimes
         data_waiting.loc[data_total.index[a], data_total.columns[b]] = waiting/simulationtimes
 
+# draw heatmap under different conditions
 data_total = data_total[data_total.columns].astype(float)
 data_total = data_total[data_total.columns]/60
 fig=plt.figure(figsize=(8,5))
