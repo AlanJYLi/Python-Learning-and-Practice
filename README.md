@@ -7,3 +7,6 @@ Some preview pages of the coding practice:
   
 Airport security checking process simulation via SimPy module:  
 https://alanjyli.github.io/Python-Learning-and-Practice/Distribution_and_Simulation_SimPy.html  
+  
+Linear Programming (Diet Problem) via PuLP modele:  
+https://alanjyli.github.io/Python-Learning-and-Practice/Linear_Programming_PuLP.html  
