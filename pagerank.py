@@ -17,12 +17,6 @@ requires to load large graph dataset to computer memory. In order to calculate t
 of each node, we will iterate over dataset multiple times and update the probabilities based on 
 equation mentioned in the question.
 """
-def author():                                                                                             
-        return 'jli3006' # replace sroutray3 with your Georgia Tech username.                                                                                             
-                                                                                              
-def gtid():                                                                                               
-    return 903520148 # replace with your GT ID number      
-
 class PageRank:
     def __init__(self, edge_file):
 
